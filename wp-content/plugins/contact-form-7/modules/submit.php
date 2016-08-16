@@ -14,7 +14,7 @@ function wpcf7_add_shortcode_submit() {
 function wpcf7_submit_shortcode_handler( $tag ) {
 	$tag = new WPCF7_Shortcode( $tag );
 
-	$class = wpcf7_form_controls_class( $tag->type, "btn btn-main" );
+	$class = wpcf7_form_controls_class( $tag->type );
 
 	$atts = array();
 

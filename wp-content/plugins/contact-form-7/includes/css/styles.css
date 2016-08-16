@@ -32,7 +32,7 @@ div.wpcf7-spam-blocked {
 }
 
 div.wpcf7-validation-errors {
-	border: 2px solid #8b0000;
+	border: 2px solid #f7e700;
 }
 
 .wpcf7-form-control-wrap {
@@ -75,4 +75,8 @@ div.wpcf7 div.ajax-error {
 
 div.wpcf7 .placeheld {
 	color: #888;
+}
+
+.wpcf7-recaptcha iframe {
+	margin-bottom: 0;
 }
