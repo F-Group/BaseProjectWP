@@ -63,14 +63,14 @@ function fp_widgets_init() {
 add_action( 'widgets_init', 'fp_widgets_init' );
 
 function fp_scripts() {
-    // add wordpress jquery
-    wp_enqueue_script('jquery');
-    wp_enqueue_script('jquery-ui-core');
 
     $path = get_template_directory_uri();
 
     // custom js
     $scripts = array(
+        'js/lib/jquery-3.1.0.min.js',
+        'js/lib/tether.min.js',
+        'js/lib/bootstrap.min.js',
         '/js/app.js'
     );
     foreach ($scripts as $key => $url){
